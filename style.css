@@ -116,6 +116,19 @@ section {
   margin-top: -20px;
   padding-bottom: 30px;
 }
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
 /* carousel */
 .carousel {
   background: radial-gradient(#ffffff, #bebebe);
