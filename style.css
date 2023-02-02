@@ -1,0 +1,159 @@
+/* navbar */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.navbar .nav-link {
+  color: white !important;
+}
+.navbar-brand {
+  font-family: Lobster;
+  color: white;
+}
+.navbar-toggler {
+  color: white;
+}
+.navbar-nav {
+  margin-left: auto;
+  font-family: IBM Plex Serif;
+  color: white;
+}
+/* SECTION */
+section {
+  scroll-margin-top: 55px;
+}
+/* Jumbotron */
+.jumbotron {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url(gambar/background.webp);
+  background-size: cover;
+  height: 550px;
+  text-align: center;
+}
+/* .jumbotron .container {
+  z-index: 1;
+  position: relative;
+} */
+/* .jumbotron::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+} */
+
+.container .display-4 {
+  font-family: Unna;
+  color: white;
+  padding-top: 150px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 2);
+}
+.display-2 {
+  font-family: Bree Serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.heading {
+  color: #000;
+}
+
+/* Ultiliti */
+.btn-home {
+  font-family: Unna;
+  margin-top: 50px;
+}
+.btn-home:hover {
+  background-color: red;
+  text-decoration: none;
+  border-color: red;
+  box-shadow: 1px 2px #000;
+}
+.row {
+  margin-top: 20px;
+}
+/* CARD PRODUK */
+.produk {
+  background: radial-gradient(#ffffff, #bebebe);
+  margin-top: -20px;
+  padding-bottom: 30px;
+  /* color: white; */
+}
+.card-title {
+  font-family: Lobster;
+}
+.card-text {
+  font-family: Bree Serif;
+}
+.img-produk {
+  height: 250px;
+  width: 300px;
+  margin: auto;
+}
+.img-carousel {
+  margin: auto;
+  /* width: 250px !important; */
+  height: 270px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.btn-produk {
+  margin-bottom: 10px;
+  margin-left: 18px;
+}
+.heading {
+  font-family: Lobster;
+  font-size: 25px;
+}
+.harga {
+  font-family: Lobster;
+}
+/* LOKASI */
+.lokasi {
+  background: radial-gradient(#ffffff, #bebebe);
+  margin-top: -20px;
+  padding-bottom: 30px;
+}
+/* carousel */
+.carousel {
+  background: radial-gradient(#ffffff, #bebebe);
+  margin-top: -20px;
+}
+/* Desktop Version Desktop Version*/
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 40px;
+  }
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+  .jumbotron {
+    margin-top: -75px;
+    height: 640px;
+  }
+  .jumbotron .display-4 {
+    font-size: 40px;
+  }
+  .display-2 {
+    color: white;
+    font-size: 30px;
+  }
+  .heading {
+    font-family: Lobster;
+    font-size: 40px;
+  }
+}
