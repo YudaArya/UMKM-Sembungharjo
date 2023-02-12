@@ -17,6 +17,10 @@
   font-family: IBM Plex Serif;
   color: white;
 }
+.sosmed {
+  height: 30px;
+  width: 35px;
+}
 /* SECTION */
 section {
   scroll-margin-top: 55px;
