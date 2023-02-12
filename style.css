@@ -23,7 +23,7 @@ section {
 }
 /* Jumbotron */
 .jumbotron {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url(gambar/IMG_7207\ -\ Copy.JPG);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url(gambar/back1.jpg);
   background-size: cover;
   height: 550px;
   text-align: center;
@@ -63,7 +63,7 @@ section {
 /* Ultiliti */
 .btn-home {
   font-family: Unna;
-  margin-top: 30px;
+  margin-top: 90px;
 }
 .btn-home:hover {
   background-color: red;
